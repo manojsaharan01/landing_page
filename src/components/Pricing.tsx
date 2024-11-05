@@ -16,20 +16,21 @@ const PricingCard = ({
       </div>
       <h3 className="text-2xl font-bold">{title}</h3>
     </div>
-
     <div className="mt-8">
       <div className="text-3xl font-bold">
         Starting From ${price}
         <span className="text-base font-normal text-gray-500 ml-2">setup fee</span>
       </div>
     </div>
-
-    <button className={`mt-8 w-full rounded-full px-6 py-3 font-medium ${
-      isDark ? 'bg-white text-gray-900 hover:bg-gray-100' : 'bg-gray-900 text-white hover:bg-gray-800'
+  
+    <a href="https://cal.com/ai-company-fcboct/discovery-call" target="_blank" rel="noopener noreferrer">
+  <button className={`mt-8 w-full rounded-full px-6 py-3 font-medium ${
+    isDark ? 'bg-white text-gray-900 hover:bg-gray-100' : 'bg-gray-900 text-white hover:bg-gray-800'
     } transition`}>
-      {buttonText}
-    </button>
-
+    {buttonText}
+  </button>
+   </a> 
+    
     <ul className="mt-8 space-y-4">
       {features.map((feature, index) => (
         <li key={index} className="flex items-center space-x-3">
@@ -40,11 +41,13 @@ const PricingCard = ({
     </ul>
   </div>
 );
-
 export default function Pricing() {
   return (
     <div className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+
+      <div id="pricing" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+        <h2 className="text-3xl font-bold">Pricing</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <PricingCard
             title="Next-Level Customer Engagement."
@@ -58,7 +61,6 @@ export default function Pricing() {
               "Latest AI Models"
             ]}
           />
-          
           <PricingCard
             title="Fully automate your phone calls."
             subtitle="Inbound & Outbound Calls"
@@ -74,14 +76,21 @@ export default function Pricing() {
             isDark={true}
           />
         </div>
+      </div>
 
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold">Book Our AI Agent Discovery Call Today.</h3>
-          <button className="mt-6 bg-gray-900 text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition inline-flex items-center">
-            <Phone className="mr-2 h-5 w-5" />
-            Book a Call
-          </button>
-        </div>
+      <div id="about" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+        <h2 className="text-3xl font-bold">About</h2>
+        {/* About content here */}
+      </div>
+
+      <div className="mt-16 text-center">
+        <h3 className="text-2xl font-bold">Book Our AI Agent Discovery Call Today.</h3>
+        <button className="mt-6 bg-gray-900 text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition inline-flex items-center">
+          <Phone className="mr-2 h-5 w-5" />
+          <a href="https://cal.com/ai-company-fcboct/discovery-call" target="_blank" rel="noopener noreferrer" className=" text-white px-6 py-2 rounded-full ">
+            Book a Demo
+          </a>
+        </button>
       </div>
     </div>
   );
