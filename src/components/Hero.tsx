@@ -21,7 +21,7 @@ export default function Hero() {
           </button>
         </div>
         <div className="flex justify-center">
-          <img src="https://github.com/manojsaharan01/landing_page/blob/main/.bolt/Ana.png" alt="Ana" className="rounded-full shadow-lg" />
+          <img src="https://github.com/manojsaharan01/landing_page/blob/main/.bolt/Ana.png?raw=true"  className="rounded-full shadow-lg" />
         </div>
       </div>
     </div>
