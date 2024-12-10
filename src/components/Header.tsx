@@ -25,7 +25,7 @@ export default function Header() {
           </nav>
           
           <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
-            <a href="https://cal.com/ai-company-fcboct/discovery-call" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
+            <a href="https://cal.com/manojsaharan/discovery-call" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
             Book a Demo
            </a>
           </button>
