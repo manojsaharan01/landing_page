@@ -23,7 +23,7 @@ const PricingCard = ({
       </div>
     </div>
   
-    <a href="https://cal.com/ai-company-fcboct/discovery-call" target="_blank" rel="noopener noreferrer">
+    <a href="https://cal.com/manojsaharan/discovery-call" target="_blank" rel="noopener noreferrer">
   <button className={`mt-8 w-full rounded-full px-6 py-3 font-medium ${
     isDark ? 'bg-white text-gray-900 hover:bg-gray-100' : 'bg-gray-900 text-white hover:bg-gray-800'
     } transition`}>
