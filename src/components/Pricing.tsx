@@ -79,7 +79,7 @@ export default function Pricing() {
         <h3 className="text-2xl font-bold">Book Our AI Agent Discovery Call Today.</h3>
         <button className="mt-6 bg-gray-900 text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition inline-flex items-center">
           <Phone className="mr-2 h-5 w-5" />
-          <a href="https://cal.com/ai-company-fcboct/discovery-call" target="_blank" rel="noopener noreferrer" className=" text-white px-6 py-2 rounded-full ">
+          <a href="https://cal.com/manojsaharan/discovery-call" target="_blank" rel="noopener noreferrer" className=" text-white px-6 py-2 rounded-full ">
             Book a Demo
           </a>
         </button>
