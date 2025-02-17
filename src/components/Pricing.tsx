@@ -60,8 +60,7 @@ export default function Pricing() {
               "Proposal & Contract Generation (Auto-generated quotes, proposals, e-signatures)",
               "Post-Meeting Summaries & Notes (AI-generated summaries, CRM updates)",
               "Lead Re-Engagement (Identifying dormant leads,sending re-engagement emails)",
-              "Reporting & Analytics (Tracking performance, generating reports, sending insights)",
-              "Latest AI Models"
+              "Reporting & Analytics (Tracking performance, generating reports, sending insights)"
             ]}
             isDark={true}
           />
