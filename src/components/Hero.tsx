@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="flex justify-center mb-8">
           <button className="bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition inline-flex items-center">
             <Bot className="mr-2 h-5 w-5" />
-            <a href="https://cal.com/ai-company-fcboct/discovery-call" className="inline-block">Hire Ana Today</a>
+            <a href="https://cal.com/manojsaharan/discovery-call" className="inline-block">Hire Ana Today</a>
           </button>
         </div>
         <div className="flex justify-center">

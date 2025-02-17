@@ -42,9 +42,9 @@ export default function Footer() {
             </ul>
             
             <div className="mt-8 flex space-x-4">
-              <a href="#" className="hover:text-white transition"><Twitter className="h-5 w-5" /></a>
-              <a href="#" className="hover:text-white transition"><Linkedin className="h-5 w-5" /></a>
-              <a href="#" className="hover:text-white transition"><Github className="h-5 w-5" /></a>
+              <a href="https://x.com/manojsaharan_" className="hover:text-white transition"><Twitter className="h-5 w-5" /></a>
+              <a href="https://www.linkedin.com/company/ttwcommunity" className="hover:text-white transition"><Linkedin className="h-5 w-5" /></a>
+              <a href="https://github.com/manojsaharan01/aicompany" className="hover:text-white transition"><Github className="h-5 w-5" /></a>
             </div>
           </div>
         </div>
