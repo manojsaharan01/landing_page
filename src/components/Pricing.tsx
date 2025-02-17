@@ -9,7 +9,7 @@ const PricingCard = ({
   isDark = false,
   buttonText = "Get Started"
 }) => (
-  <div className={`rounded-3xl p-8 ${isDark ? 'bg-gray-900 text-white' : 'bg-white'}`}>
+  <div className={`rounded-3xl p-8 text-center ${isDark ? 'bg-gray-900 text-white' : 'bg-white'}`}>
     <div className="space-y-2">
       <div className="inline-block px-4 py-1 rounded-full text-sm bg-green-100 text-green-800">
         {subtitle}
@@ -24,16 +24,16 @@ const PricingCard = ({
     </div>
   
     <a href="https://cal.com/manojsaharan/discovery-call" target="_blank" rel="noopener noreferrer">
-  <button className={`mt-8 w-full rounded-full px-6 py-3 font-medium ${
-    isDark ? 'bg-white text-gray-900 hover:bg-gray-100' : 'bg-gray-900 text-white hover:bg-gray-800'
-    } transition`}>
-    {buttonText}
-  </button>
-   </a> 
+      <button className={`mt-8 w-full rounded-full px-6 py-3 font-medium ${
+        isDark ? 'bg-white text-gray-900 hover:bg-gray-100' : 'bg-gray-900 text-white hover:bg-gray-800'
+      } transition`}>
+        {buttonText}
+      </button>
+    </a> 
     
     <ul className="mt-8 space-y-4">
       {features.map((feature, index) => (
-        <li key={index} className="flex items-center space-x-3">
+        <li key={index} className="flex items-center justify-center space-x-3">
           <div className="h-1.5 w-1.5 rounded-full bg-gray-400" />
           <span className={isDark ? 'text-gray-300' : 'text-gray-600'}>{feature}</span>
         </li>
@@ -43,12 +43,10 @@ const PricingCard = ({
 );
 export default function Pricing() {
   return (
-    <div className="py-24 bg-gray-50">
-
-
+    <div className="py-24 bg-gray-50 text-center">
       <div id="pricing" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <h2 className="text-3xl font-bold">Pricing</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 justify-center">
           <PricingCard
             title="Fully automate your Sales Systems."
             subtitle="AI SDR"
@@ -72,14 +70,13 @@ export default function Pricing() {
 
       <div id="about" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <h2 className="text-3xl font-bold">About</h2>
-        {/* About content here */}
       </div>
 
       <div className="mt-16 text-center">
         <h3 className="text-2xl font-bold">Book Our AI Agent Discovery Call Today.</h3>
-        <button className="mt-6 bg-gray-900 text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition inline-flex items-center">
+        <button className="mt-6 bg-gray-900 text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition inline-flex items-center justify-center">
           <Phone className="mr-2 h-5 w-5" />
-          <a href="https://cal.com/manojsaharan/discovery-call" target="_blank" rel="noopener noreferrer" className=" text-white px-6 py-2 rounded-full ">
+          <a href="https://cal.com/manojsaharan/discovery-call" target="_blank" rel="noopener noreferrer" className="text-white px-6 py-2 rounded-full">
             Book a Demo
           </a>
         </button>
