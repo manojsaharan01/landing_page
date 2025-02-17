@@ -50,27 +50,19 @@ export default function Pricing() {
         <h2 className="text-3xl font-bold">Pricing</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <PricingCard
-            title="Next-Level Customer Engagement."
-            subtitle="Website/Social Media"
-            price="3,000"
+            title="Fully automate your Sales Systems."
+            subtitle="AI SDR"
+            price="4,997"
             features={[
-              "Advanced Automations",
-              "Rigorous Testing",
-              "24/7 Priority Support",
-              "Social Media Integrations",
-              "Latest AI Models"
-            ]}
-          />
-          <PricingCard
-            title="Fully automate your phone calls."
-            subtitle="Inbound & Outbound Calls"
-            price="4,000"
-            features={[
-              "Advanced Automations",
-              "Human Like Quality",
-              "24/7 Priority Support",
-              "Weekly Development Calls",
-              "Rigorous Testing",
+              "Lead Generation & Research (Scraping, email finding, verification, enrichment)",
+              "AI Personalized Outreach (Automated emails, personalized videos, custom landing pages)",
+              "Lead Nurturing & Follow-Ups (Daily scans, context-aware follow-ups)",
+              "FAQ Handling & Calendar Coordination (Auto-replies, scheduling, rescheduling)",
+              "CRM Management (Logging contacts, updating pipeline, tracking interactions)",
+              "Proposal & Contract Generation (Auto-generated quotes, proposals, e-signatures)",
+              "Post-Meeting Summaries & Notes (AI-generated summaries, CRM updates)",
+              "Lead Re-Engagement (Identifying dormant leads,sending re-engagement emails)",
+              "Reporting & Analytics (Tracking performance, generating reports, sending insights)",
               "Latest AI Models"
             ]}
             isDark={true}
